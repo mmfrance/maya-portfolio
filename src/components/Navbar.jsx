@@ -75,7 +75,7 @@ const Navbar = ({ scrolled }) => {
               }
             }}
           >
-            <img src="/images/tranmflogo.png" alt="Maya France" className="h-12 w-auto" />
+            <img src="/images/tranmflogo.png" alt="Maya France" className="h-14 w-auto" />
           </Link>
           <ul className="hidden md:flex space-x-1 items-center">
             {navItems.map((item) => (
