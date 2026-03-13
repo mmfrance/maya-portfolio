@@ -15,27 +15,27 @@ const Leadership = () => {
       organization: 'Girls Who Code',
       description: 'The Girls Who Code Club at Iowa State University is a community driven organization dedicated to closing the gender gap in technology. Our club empowers students through technical skill building, professional development, mentorship, and connections with industry professionals.',
       images: [
-        '/gwsgroup.JPG',
-        '/GWC@ISU_Logo.png',
+        '/images/gwsgroup.JPG',
+        '/images/GWC@ISU_Logo.png',
       ],
     },
     {
       role: 'LAS PULSE',
       organization: 'Advisory Board',
       description: 'LAS Pulse is a group of appointed LAS students that can provide the deans of the college with an increased pulse on the climate, culture, and access within LAS. This is a leadership opportunity for students, and they will have the opportunity to engage in constructive conversation with the LAS Dean and other college deans during monthly meetings.',
-      images: ['/laspulsefall24.jpg'],
+      images: ['/images/laspulsefall24.jpg'],
     },
     {
       role: 'Start Something',
       organization: 'Liberal Arts and Sciences',
       description: 'Start Something is a program in the College of Liberal Arts and Sciences that supports students in exploring entrepreneurship, innovation, and leadership. Students engage in cohorts, events, and mentorship to develop ideas and build community.',
-      images: ['/StartSomethingGraphic.webp'],
+      images: ['/images/StartSomethingGraphic.webp'],
     },
     {
       role: 'STEM Scholars',
       organization: 'Program Member',
       description: 'STEM Scholars is a program that supports students in science, technology, engineering, and mathematics through academic enrichment, mentorship, and community building. Scholars benefit from dedicated resources and connections to succeed in STEM fields.',
-      images: ['/stemscholarslogo.png'],
+      images: ['/images/stemscholarslogo.png'],
     },
     {
       role: 'BOLD',

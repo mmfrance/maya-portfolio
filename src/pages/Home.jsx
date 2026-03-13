@@ -294,7 +294,7 @@ const Home = () => {
               className="flex justify-center"
             >
               <img
-                src="/France-129.jpg"
+                src="/images/France-129.jpg"
                 alt="Maya France"
                 className="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full border border-light-border object-cover object-center"
               />

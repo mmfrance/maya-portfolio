@@ -6,7 +6,7 @@ import { HiChevronDown } from 'react-icons/hi'
 const Navbar = ({ scrolled }) => {
   const location = useLocation()
   const navigate = useNavigate()
-  const [openDropdown, setOpenDropdown] = useState(null) // 'home' only (Expertise is a direct link)
+  const [openDropdown, setOpenDropdown] = useState(null) // 'home' only (Professional Experience & Projects is a direct link)
 
   const navItems = [
     {
@@ -19,7 +19,7 @@ const Navbar = ({ scrolled }) => {
         { label: 'Experiences', sectionId: 'experience' },
       ],
     },
-    { path: '/expertise', label: 'Expertise' },
+    { path: '/expertise', label: 'Professional Experience & Projects' },
     { path: '/leadership', label: 'Leadership' },
     { path: '/spotlight', label: 'In the Spotlight' },
     { path: '/contact', label: 'Contact' },
@@ -66,8 +66,16 @@ const Navbar = ({ scrolled }) => {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-14">
-          <Link to="/" className="text-lg font-semibold text-text-primary tracking-tight">
-            Maya France
+          <Link
+            to="/"
+            className="flex items-center gap-2"
+            onClick={() => {
+              if (location.pathname === '/') {
+                window.scrollTo({ top: 0, behavior: 'smooth' })
+              }
+            }}
+          >
+            <img src="/images/tranmflogo.png" alt="Maya France" className="h-12 w-auto" />
           </Link>
           <ul className="hidden md:flex space-x-1 items-center">
             {navItems.map((item) => (

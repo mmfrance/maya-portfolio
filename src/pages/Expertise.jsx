@@ -100,7 +100,7 @@ const Expertise = () => {
           className="text-center mb-16"
         >
           <h1 className="text-3xl sm:text-4xl font-bold text-text-primary tracking-tight mb-4">
-            Expertise
+            Professional Experience & Projects
           </h1>
           <p className="text-text-secondary text-base sm:text-lg max-w-2xl mx-auto">
             A concise overview of my technical skills, tools, certifications, and selected projects.
