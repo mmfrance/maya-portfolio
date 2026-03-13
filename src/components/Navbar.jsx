@@ -65,7 +65,7 @@ const Navbar = ({ scrolled }) => {
       }`}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-14">
+        <div className="flex justify-between items-center min-h-14 h-28">
           <Link
             to="/"
             className="flex items-center gap-2"
@@ -75,7 +75,7 @@ const Navbar = ({ scrolled }) => {
               }
             }}
           >
-            <img src="/images/tranmflogo.png" alt="Maya France" className="h-14 w-auto" />
+            <img src="/images/tranmflogo.png" alt="Maya France" className="h-[6.65rem] w-auto" />
           </Link>
           <ul className="hidden md:flex space-x-1 items-center">
             {navItems.map((item) => (
